@@ -100,8 +100,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   printf("\r\n--- Bootloader Starting (LED Blinking Test) ---\r\n");
 
-  // 闪烁 50 次以确认 Bootloader 已启动
-  for(int i = 0; i < 50; i++) {
+  // 闪烁 5 次以确认 Bootloader 已启动
+  for(int i = 0; i < 5; i++) {
       HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
       HAL_Delay(100);
       HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);

@@ -15,7 +15,16 @@
       "WebFetch(domain:www.cnblogs.com)",
       "Bash(D:\\\\Workproject\\\\STM32\\\\STM32H750VBTx\\\\download.bat:*)",
       "Bash(if not exist \"%AppData%\\\\SEGGER\\\\JLinkDevices\" mkdir \"%AppData%\\\\SEGGER\\\\JLinkDevices\")",
-      "Bash(copy:*)"
+      "Bash(copy:*)",
+      "Bash(cp:*)",
+      "Bash(git checkout:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(arm-none-eabi-size:*)",
+      "Bash(\"./download.bat\":*)",
+      "Bash(arm-none-eabi-readelf:*)",
+      "Bash(arm-none-eabi-objdump:*)",
+      "Bash(arm-none-eabi-nm:*)",
+      "Bash(./download.bat:*)"
     ]
   }
 }
