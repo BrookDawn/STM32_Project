@@ -1,0 +1,11 @@
+// 1. 设置 WorkRAM
+exec SetWorkRAM 0x24000000-0x2407FFFF
+r
+h
+// 2. 强制关闭 MPU 以防干扰算法
+w4 0xE000ED94, 0
+// 3. 下载文件 (因为使用了 -device STM32H750VB_FANKE，J-Link 已知晓 0x90000000 的 Flash)
+loadfile "APP_1/build/APP_1.bin" 0x90010000
+r
+g
+q

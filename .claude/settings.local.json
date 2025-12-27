@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Add STM32 projects with build artifacts exclusion\n\nAdd .gitignore to exclude build outputs \\(*.elf, *.bin, *.hex, etc.\\) and IDE-specific files.\nInclude STM32F103C8Tx, STM32F401CCUx, STM32H750VBTx projects and device configurations.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Add STM32 projects with build artifacts exclusion\n\nAdd .gitignore to exclude build outputs \\(*.elf, *.bin, *.hex, etc.\\), IDE-specific files, and Windows reserved filenames.\nInclude STM32F103C8Tx, STM32F401CCUx, STM32H750VBTx projects and device configurations.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

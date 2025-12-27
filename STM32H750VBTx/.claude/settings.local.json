@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(download.bat:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(\"C:\\\\Program Files\\\\SEGGER\\\\JLink_V840\\\\JLink.exe\":*)",
+      "Bash(\"/c/Program Files/SEGGER/JLink_V840/JLink.exe\":*)",
+      "Bash(export:*)",
+      "Bash(cmake:*)",
+      "Bash(make:*)",
+      "Bash(findstr:*)",
+      "Bash(ls:*)",
+      "Bash(.download.bat)",
+      "WebFetch(domain:www.cnblogs.com)",
+      "Bash(D:\\\\Workproject\\\\STM32\\\\STM32H750VBTx\\\\download.bat:*)",
+      "Bash(if not exist \"%AppData%\\\\SEGGER\\\\JLinkDevices\" mkdir \"%AppData%\\\\SEGGER\\\\JLinkDevices\")",
+      "Bash(copy:*)"
+    ]
+  }
+}

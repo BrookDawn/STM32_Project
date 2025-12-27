@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Workproject\STM32\STM32F103C8Tx\OLED_Demo\EWARM\OLED_Demo\Exe\OLED_Demo.out</Path>
+            <Output>
+                <Path>D:\Workproject\STM32\STM32F103C8Tx\OLED_Demo\EWARM\OLED_Demo\List\OLED_Demo.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

@@ -1,0 +1,35 @@
+/**
+ * J-Link脚本文件 - STM32F401xC程序下载
+ * 用于通过J-Link调试器下载程序到STM32F401xC微控制器
+ */
+
+// 连接到目标设备
+device STM32F401xC
+
+// 设置接口为SWD (Serial Wire Debug)
+interface SWD
+
+// 设置速度 (MHz)
+speed 4000
+
+// 连接到目标 (自动选择SWD)
+connect
+
+// 停止目标CPU
+halt
+
+// 擦除Flash
+erase
+
+// 加载并运行程序
+loadfile build/F401Cx_test1001.hex
+
+// 验证程序
+verifybin build/F401Cx_test1001.bin, 0x08000000
+
+// 复位并运行
+reset
+go
+
+// 断开连接
+exit

@@ -1,0 +1,6 @@
+r
+h
+loadfile "D:/Workproject/STM32/STM32H750VBTx/bootloader_1/build/bootloader_1.elf"
+r
+g
+q

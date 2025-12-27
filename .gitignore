@@ -1,0 +1,76 @@
+# Build output files
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.d
+*.su
+
+# Debug files
+*.out
+*.dmp
+
+# Library files
+*.a
+*.lib
+
+# Linker files output
+*.lss
+
+# CMake build directories
+build/
+Build/
+BUILD/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE specific files
+.vscode/
+.settings/
+.project
+.cproject
+*.swp
+*.swo
+*~
+
+# STM32CubeIDE / Eclipse
+Debug/
+Release/
+.metadata/
+RemoteSystemsTempFiles/
+
+# Keil
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.axf
+
+# IAR
+*.pbd
+*.pbd.*
+*.pbi
+*.pbi.*
+Debug/
+Release/
+settings/
+
+# GCC ARM Embedded
+*.lst
+
+# Windows reserved names
+nul
+NUL
+CON
+PRN
+AUX
+com[1-9]
+lpt[1-9]
+
+# Other
+*.log

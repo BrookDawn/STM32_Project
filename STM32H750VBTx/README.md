@@ -1,0 +1,1 @@
+rm -rf build/debug && cmake -B build/debug -D CMAKE_BUILD_TYPE=Debug -D CMAKE_TOOLCHAIN_FILE=cmake/gcc-arm-none-eabi.cmake -G "Unix Makefiles"
